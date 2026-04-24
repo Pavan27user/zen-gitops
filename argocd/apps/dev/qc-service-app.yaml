@@ -12,12 +12,12 @@ metadata:
 spec:
   project: pharma
   source:
-    repoURL: https://github.com/ravdy/zen-gitops.git
-    targetRevision: HEAD
+    repoURL: https://github.com/pavan27user/zen-gitops.git
+    targetRevision: main
     path: helm-charts
     helm:
       valueFiles:
-        - ../envs/dev/values-qc-service.yaml
+        - /envs/dev/values-qc-service.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: dev
