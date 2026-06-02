@@ -1,7 +1,7 @@
 replicaCount: 1
 fullnameOverride: manufacturing-service
 image:
-  repository: 332779204837.dkr.ecr.us-east-1.amazonaws.com/manufacturing-service
+  repository: 488182246963.dkr.ecr.ap-south-1.amazonaws.com/api-gateway
   tag: latest
   pullPolicy: Always
 service:

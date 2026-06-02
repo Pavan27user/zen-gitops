@@ -1,7 +1,7 @@
 replicaCount: 1
 fullnameOverride: notification-service
 image:
-  repository: 332779204837.dkr.ecr.us-east-1.amazonaws.com/notification-service
+  repository: 488182246963.dkr.ecr.us-east-1.amazonaws.com/notification-service
   tag: latest
   pullPolicy: Always
 service:
