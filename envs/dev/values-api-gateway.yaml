@@ -1,8 +1,9 @@
 replicaCount: 1
 fullnameOverride: api-gateway
 image:
-  repository: 332779204837.dkr.ecr.us-east-1.amazonaws.com/api-gateway
-  tag: latest
+  repository: 488182246963.dkr.ecr.us-east-1.amazonaws.com/api-gateway
+  tag: v2
+  tag: v2
   pullPolicy: Always
 service:
   type: ClusterIP
